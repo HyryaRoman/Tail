@@ -1,3 +1,5 @@
+#include "Tail.h"
+
 #include <iostream>
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
@@ -7,7 +9,7 @@ void error_callback(int error, const char* desc) {
 }
 
 int main() {
-	if (!glfwInit()) {
+	/*if (!glfwInit()) {
 		std::cerr << "Failed to initializate glfw!" << std::endl;
 		return -1;
 	}
@@ -32,5 +34,9 @@ int main() {
 
 	glfwDestroyWindow(window);
 	glfwTerminate();
-	return 0;
+	return 0;*/
+
+	Tail* tail = new Tail();
+	tail->Run();
+	delete tail;
 }

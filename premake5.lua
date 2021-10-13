@@ -5,6 +5,7 @@ IncludeDir["ImGui"] = "%{wks.location}/Tail/vendor/ImGui"
 
 workspace "Tail"
     startproject "Tail"
+    architecture "x64"
 
     configurations
     {

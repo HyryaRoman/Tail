@@ -1,6 +1,9 @@
-[submodule "Tail\\vendor\\glfw"]
+[submodule "Tail/vendor/glfw"]
 	path = Tail/vendor/glfw
 	url = https://github.com/HyryaRoman/glfw
-[submodule "Tail\\vendor\\imgui"]
+[submodule "Tail/vendor/imgui"]
 	path = Tail/vendor/imgui
 	url = https://github.com/HyryaRoman/imgui
+[submodule "Tail/vendor/spdlog"]
+	path = Tail/vendor/spdlog
+	url = https://github.com/gabime/spdlog
