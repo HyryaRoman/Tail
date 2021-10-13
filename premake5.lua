@@ -4,6 +4,8 @@ IncludeDir["GLAD"] = "%{wks.location}/Tail/vendor/glad"
 IncludeDir["ImGui"] = "%{wks.location}/Tail/vendor/ImGui"
 
 workspace "Tail"
+    startproject "Tail"
+
     configurations
     {
         "Debug",

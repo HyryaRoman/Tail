@@ -12,7 +12,7 @@ project "Tail"
         "src/**.cpp"
     }
 
-    includefirs
+    includedirs
     {
         "src",
         "%{IncludeDir.GLFW}",
