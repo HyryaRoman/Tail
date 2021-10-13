@@ -19,4 +19,4 @@ private:
 #define TAIL_INFO(...) Log::GetLogger()->info(__VA_ARGS__)
 #define TAIL_WARN(...) Log::GetLogger()->warn(__VA_ARGS__)
 #define TAIL_ERROR(...) Log::GetLogger()->error(__VA_ARGS__)
-#define TAIL_FATAL(...) Log::GetLogger()->fatal(__VA_ARGS__)
+#define TAIL_CRITICAL(...) Log::GetLogger()->critical(__VA_ARGS__)
