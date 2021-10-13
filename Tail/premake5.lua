@@ -1,5 +1,5 @@
 project "Tail"
-    kind "WindowedApp"
+    kind "ConsoleApp"
     language "C++"
     staticruntime "Off"
 
@@ -10,6 +10,11 @@ project "Tail"
     {
         "src/**.h",
         "src/**.cpp"
+    }
+
+    defines
+    {
+        "GLFW_INCLUDE_NONE"
     }
 
     includedirs
