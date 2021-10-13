@@ -17,3 +17,5 @@ group "Dependencies"
     include "Tail/vendor/glad"
     include "Tail/vendor/imgui"
 group ""
+
+include "Tail"
