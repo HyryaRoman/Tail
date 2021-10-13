@@ -7,4 +7,4 @@ build-int/
 **.sln
 **.vcxproj
 **.vcxproj.filters
-**.vcxproj.users
+**.vcxproj.user
