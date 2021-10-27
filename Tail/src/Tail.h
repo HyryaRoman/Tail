@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Window.h"
+#include "Window/Window.h"
 
 class Tail {
 public:
@@ -9,5 +9,6 @@ public:
 	void Run();
 private:
 	Window* m_window;
+	Tail* s_Instance;
 };
 

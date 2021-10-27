@@ -21,7 +21,7 @@ project "Tail"
     includedirs
     {
         "src",
-        "vendor/spdlog/include",
+        "%{IncludeDir.spdlog}",
         "%{IncludeDir.GLFW}",
         "%{IncludeDir.GLAD}",
         "%{IncludeDir.ImGui}"
