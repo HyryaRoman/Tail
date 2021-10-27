@@ -1,7 +1,8 @@
 IncludeDir = {}
 IncludeDir["GLFW"] = "%{wks.location}/Tail/vendor/glfw/include"
 IncludeDir["GLAD"] = "%{wks.location}/Tail/vendor/glad/include"
-IncludeDir["ImGui"] = "%{wks.location}/Tail/vendor/ImGui"
+IncludeDir["ImGui"] = "%{wks.location}/Tail/vendor/imgui/include"
+IncludeDir["spdlog"] = "%{wks.location}/Tail/vendor/spdlog/include"
 
 workspace "Tail"
     startproject "Tail"

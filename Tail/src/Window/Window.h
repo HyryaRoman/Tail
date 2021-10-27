@@ -5,10 +5,9 @@
 
 class Window {
 public:
-	Window();
+	Window(GLFWwindow* windowPointer);
 	~Window();
 	void Run();
-	void ProcessInput();
 	static Window* createWindow(int width, int height, const char* title);
 	static void destroyWindow(Window* window);
 private:
